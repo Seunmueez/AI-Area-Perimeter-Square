@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate"
+     xml:base="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:AreaPermiterUpdate="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withArea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withArea">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Square"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Area"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withPerimeter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withPerimeter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Square"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Perimeter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withSideLength -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withSideLength">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Square"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SideLength"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#hasValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Area"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Perimeter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#sideLengthValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#sideLengthValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SideLength"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Area"/>
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Perimeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Perimeter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SideLength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SideLength"/>
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Square -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Square"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SideLenghtIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SideLenghtIndividual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SideLength"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SquareIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SquareIndividual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Square"/>
+        <AreaPermiterUpdate:withSideLength rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#SideLenghtIndividual"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#side">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#length">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#area">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#perimeter">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Calculate Area</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Square"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withSideLength"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#s"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#side"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#sideLengthValue"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#side"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#length"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                <swrl:arguments rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="urn:swrl:var#area"/>
+                                                    <rdf:Description rdf:about="urn:swrl:var#length"/>
+                                                    <rdf:Description rdf:about="urn:swrl:var#length"/>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withArea"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#s"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#area"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Calculate Perimeter</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#Square"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withSideLength"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#s"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#side"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#sideLengthValue"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#side"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#length"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#multiply"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#perimeter"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:resource="urn:swrl:var#length"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/home/ontologies/2024/11/AreaPermiterUpdate#withPerimeter"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#s"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#perimeter"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
